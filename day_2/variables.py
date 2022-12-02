@@ -26,5 +26,22 @@ print(len(first_name) == len(last_name))
 
 num_one=5
 num_two=4
-count1 = sum(num_one,num_two)
+print(variable_total = sum(num_one,num_two))
+print(variable_diff = num_one - num_two)
+print(variable_product = num_one * num_two)
+print(variable_division = num_one / num_two)
+print(variable_remainder = num_two % num_one)
+print(variable_exp = num_one ** num_two)
+print(variable_floor = num_one // num_two)
+
+radio = 30
+area_of_circle = 3.14159 * radio**2
+print(area_of_circle)
+circum_of_circle = 2 * 3.14159 * radio
+print(circum_of_circle)
+radio2 = input("Añade el radio del circulo:")
+area_of_circle2 = 3.14159 * radio2**2
+print(area_of_circle2)
+
+
 
