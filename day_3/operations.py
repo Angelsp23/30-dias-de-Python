@@ -1,11 +1,10 @@
-age = int=16
-height = float=1.85
+age = int(16)
+height = float(1.85)
 ecuacion = complex= 3 + 3j
-base = input ("Area:")
-print(base)
-int= base
-altura = input("Altura:")
+nbase =int(input("Area:"))
+print(nbase)
+altura =int(input("Altura:"))
 print(altura)
-int= altura
 print ("El perímetro de su triangulo es:")
-print(0.5 * altura * base)
+print(0.5 * altura * nbase)
+
