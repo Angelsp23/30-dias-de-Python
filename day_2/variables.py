@@ -26,22 +26,30 @@ print(len(first_name) == len(last_name))
 
 num_one=5
 num_two=4
-print(variable_total = sum(num_one,num_two))
-print(variable_diff = num_one - num_two)
-print(variable_product = num_one * num_two)
-print(variable_division = num_one / num_two)
-print(variable_remainder = num_two % num_one)
-print(variable_exp = num_one ** num_two)
-print(variable_floor = num_one // num_two)
+variable_total= num_one + num_two
+print("la suma es de:",variable_total)
+variable_diff = num_one - num_two
+print ("la resta es de:", variable_diff)
+variable_product = num_one * num_two
+
+print(f"la multiplicación es de {variable_product}")
+variable_division = num_one / num_two
+print(f"la división es de: {variable_division}")
+variable_remainder = num_two % num_one
+print(f"el módulo es de: {variable_remainder}")
+variable_exp = num_one ** num_two
+print(f"la potencia es de: {variable_exp}")
+variable_floor = num_one // num_two
+print(f"la división de suelo es de: {variable_floor}")
 
 radio = 30
 area_of_circle = 3.14159 * radio**2
 print(area_of_circle)
 circum_of_circle = 2 * 3.14159 * radio
 print(circum_of_circle)
-radio2 = input("Añade el radio del circulo:")
+radio2 = int(input("Añade el radio del circulo:"))
 area_of_circle2 = 3.14159 * radio2**2
-print(area_of_circle2)
+print("El área del circulo es de:",area_of_circle2)
 
 
 
