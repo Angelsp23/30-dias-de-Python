@@ -34,8 +34,40 @@ circum_circle = 2*pi*radio_circle
 print(area_circle)
 print(circum_circle)
 
-x= int(input("Inserte valor de x"))
-print(x)
-y = 2*x -2
-print("El valor y en 2x-2 es de"y)
-#usar for
+funcion1="y=2x-2"
+print("su función es:"+funcion1)
+pendientef1= str(2)
+print("su pendiente es:"+pendientef1)
+interceptx= (2*0 -2)
+print("el intercepto de x es:")
+print(0,interceptx)
+intercepty = (0+2)/2
+print("el intercepto de y es:")
+print(intercepty,0)
+
+punto1=(2,2)
+punto2=(6,10)
+x1=2
+x2=6 
+y1=2
+y2=10
+m= (y2-y1)/(x2-x1)
+print(f"su pendiente es:{m}")
+euclideandistance= (x2-x1)**2 + (y2-y1)**2
+print(f"la distancia eucliana es de: {euclideandistance}")
+
+print(pendientef1==m)
+
+numeros_prueba= (2,-3,4,5,6)
+for n in numeros_prueba:
+    print (n**2 + 6*n +9)
+
+print(len("python"))
+print(len("dragon"))
+print(len("python")!=len("dragon"))
+
+print("on"in "python")
+print("on" in "dragon")
+print("jargon" in "I hope this course is not full of jargon")
+print("on" not in "dragon")
+print("on" not in "python")
