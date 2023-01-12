@@ -71,3 +71,22 @@ print("on" in "dragon")
 print("jargon" in "I hope this course is not full of jargon")
 print("on" not in "dragon")
 print("on" not in "python")
+
+lenghtpython = len("python")
+print(lenghtpython)
+print(float(lenghtpython))
+print(str(lenghtpython))
+
+numero = int(input("inserta un número cualquiera:"))
+print(numero)
+if numero%2 == 0:
+    print("su numero es par")
+else:
+    print("su número no es par")
+
+print(7//3 == int(2.7))
+
+print(type("10") == type(10))
+
+print(int(9.8)==10)
+
