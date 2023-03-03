@@ -1,4 +1,5 @@
-#Day 2: 30 Days of python programming
+#Day 10
+: 30 Days of python programming
 first_name = "Angel"
 last_name = "Sanchez"
 full_name = "Angel Sanchez"
