@@ -87,7 +87,20 @@ def sum_of_numbers(numero):
         paquito = paquito + n
     return paquito
     
+def is_prime(numero):
+    numeros_primos=[2,3,5,7,13]
+    for n in numeros_primos:
+        if numero%n==0 and numero not in numeros_primos:
+         return "Su número no es un numero primo"
+        else:
+            return "Su número es primo"
 
+def check_all_items(lista):
+    set_1=set(lista)
+    if lista == set_1:
+        return "No se repiten items en la lista"
+    else:
+        return "Se repiten items en la lista"
 
 print(sumadenumeros(3,4))
 print(area_of_circle(4))
@@ -111,4 +124,5 @@ print(remove_item(numbers, 3))  # [2, 7, 9]
 print(sum_of_numbers(5))  # 15
 print(sum_of_numbers(10)) # 55
 print(sum_of_numbers(100)) # 5050
-
+print(is_prime(71))
+print(check_all_items(["banana","apple","strawberry","banana" ]))
